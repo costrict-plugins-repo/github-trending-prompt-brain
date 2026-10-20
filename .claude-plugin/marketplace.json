@@ -1,0 +1,18 @@
+{
+  "$schema": "https://www.schemastore.org/claude-code-marketplace.json",
+  "name": "tarek-plugins",
+  "owner": {
+    "name": "Tarek Steiß",
+    "email": "contact@tarek.codes"
+  },
+  "description": "Tarek's Claude Code plugins.",
+  "plugins": [
+    {
+      "name": "prompt-brain",
+      "source": "./",
+      "description": "Optimize and migrate prompts — analyze weaknesses, apply best practices, and migrate a prompt from one model to another, each with a changelog.",
+      "category": "productivity",
+      "keywords": ["prompt", "optimize", "migrate", "model", "best-practices", "changelog"]
+    }
+  ]
+}

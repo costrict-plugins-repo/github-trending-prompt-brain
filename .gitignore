@@ -1,0 +1,28 @@
+# Plugin local settings
+.claude/*.local.md
+.claude/settings.local.json
+
+.research/
+
+# IDE
+.idea/
+.vscode/
+*.iml
+
+# Dependencies
+node_modules/
+tools/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Build
+dist/
+build/
+
+# Eval and CI run artifacts
+evals/results/
+evals-effort/results/
+plugin-validate.json
+eval-results.json
